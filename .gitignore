@@ -1,0 +1,17 @@
+# Dependency directory
+node_modules
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# IDE directory
+/.idea
+
+# Docker dependencies
+system
+docker-compose.yml
+
+# configs
+/.env
