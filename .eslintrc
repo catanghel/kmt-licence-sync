@@ -3,9 +3,6 @@
     "es6": true,
     "browser": true
   },
-  "plugins": [
-    "react"
-  ],
   "parserOptions": {
     "sourceType": "module",
     "ecmaFeatures": {
@@ -32,10 +29,7 @@
     "no-this-before-super": 2,
     "no-var": 2,
     "prefer-const": 1,
-    "no-const-assign": 2,
-    "react/jsx-uses-react": 2,
-    "react/jsx-uses-vars": 2,
-    "react/react-in-jsx-scope": 2
+    "no-const-assign": 2
   },
   "globals": {
     "require": false,

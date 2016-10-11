@@ -1,0 +1,26 @@
+{
+  "name": "kmt-licence-sync",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "repository": "",
+  "scripts": {
+    "lint": "eslint lib",
+    "test": ""
+  },
+  "engines": {
+    "node": "^6.2.0"
+  },
+  "devDependencies": {
+
+  },
+  "dependencies": {
+    "@financial-times/n-logger": "~5.4.0",
+    "next-myft-client": "^6.7.3",
+    "kmt-utilities": "financial-times/kmt-utilities#v0.0.1-beta.6",
+    "isomorphic-fetch": "^2.2.1",
+    "bluebird": "^3.4.1",
+    "dotenv": "^2.0.0",
+    "eslint ": "^3.7.1"
+  }
+}
