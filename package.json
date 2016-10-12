@@ -6,21 +6,22 @@
   "repository": "",
   "scripts": {
     "lint": "eslint lib",
-    "test": ""
+    "test": "./node_modules/.bin/mocha --harmony --recursive --require ./test/bootstrap.js"
   },
   "engines": {
     "node": "^6.2.0"
   },
   "devDependencies": {
-
+    "eslint ": "^3.7.1",
+    "chai": "~3.2.0",
+    "mocha": "~2.2.5",
+    "nock": "^2.10.0",
+    "sinon": "^1.15.4"
   },
   "dependencies": {
     "@financial-times/n-logger": "~5.4.0",
-    "next-myft-client": "^6.7.3",
-    "kmt-utilities": "financial-times/kmt-utilities#v0.0.1-beta.6",
     "isomorphic-fetch": "^2.2.1",
     "bluebird": "^3.4.1",
-    "dotenv": "^2.0.0",
-    "eslint ": "^3.7.1"
+    "dotenv": "^2.0.0"
   }
 }
